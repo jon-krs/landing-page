@@ -17,7 +17,7 @@ body {
     height: 50px;
 }
 
-.header, .main-title, .information-container, .text-container, .sign-up-container {
+.header, .main-title, .information-container, .text-container, .sign-up-container, .footer {
     margin-left: 150px;
     margin-right: 150px;
 }
@@ -90,7 +90,7 @@ h1 {
     width: 460px;
 }
 
-.subtext, .title-right, button, .sign-up-container {
+.subtext, .title-right, button, .sign-up-container, .footer {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -188,4 +188,16 @@ h4 {
 
 .button-two {
     border: 2px solid #f9faf8;
+}
+
+.footer-container {
+    background-color: #1F2937;
+    height: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
 }
