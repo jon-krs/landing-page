@@ -22,7 +22,7 @@ body {
     margin-right: 150px;
 }
 
-ul, p, h1, h3 {
+ul, p, h1, h3, h4 {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -90,12 +90,12 @@ h1 {
     width: 460px;
 }
 
-.subtext, .title-right, button {
+.subtext, .title-right, button, .sign-up-container {
     font-size: 18px;
     color: #e5e7eb;
 }
 
-.button-one {
+.button-one, .button-two {
     background-color: #3882f6;
     border-radius: 10px;
     border-style: none;
@@ -166,4 +166,26 @@ h1 {
     align-self: flex-end;
     font-weight: bold;
     font-size: 26px;
+}
+
+.sign-up-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 50px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 225px;
+    color: #e5e7eb;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+.button-two {
+    border: 2px solid #f9faf8;
 }
