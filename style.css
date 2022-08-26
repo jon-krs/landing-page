@@ -14,12 +14,12 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 50px;
+    height: 3rem;
 }
 
 .header, .main-title, .information-container, .text-container, .sign-up-container, .footer {
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 ul, p, h1, h3, h4 {
@@ -34,12 +34,12 @@ li {
 
 a, a:visited {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.1rem;
     color: #e5e7eb;
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: bolder;
     color: #f9faf8;
 }
@@ -48,13 +48,13 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #f9faf8;
 }
 
 .header-links {
     display: flex;
-    gap: 25px;
+    gap: 1.5rem;
     align-items: center;
 }
 
@@ -63,7 +63,7 @@ h1 {
     flex-direction: column;
     flex: 1;
     flex-basis: 50%;
-    margin-right: 60px;
+    margin-right: 4vw;
 }
 
 .title-right {
@@ -73,8 +73,7 @@ h1 {
     flex: 1;
     flex-basis: 50%;
     background-color: darkgray;
-    height: 250px;
-    width: 100px;
+    height: 32vh;
 }
 
 .main-title {
@@ -82,16 +81,16 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin-top: 3.2rem;
+    margin-bottom: 6.2rem;
 }
 
 .subtext {
-    width: 460px;
+    width: 29rem;
 }
 
 .subtext, .title-right, button, .sign-up-container, .footer {
-    font-size: 18px;
+    font-size: 1.1rem;
     color: #e5e7eb;
 }
 
@@ -99,9 +98,9 @@ h1 {
     background-color: #3882f6;
     border-radius: 10px;
     border-style: none;
-    padding: 5px;
-    margin-top: 15px;
-    width: 125px;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    width: 8rem;
 }
 
 .information-container {
@@ -109,27 +108,27 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 80px;
+    margin-top: 4vh;
+    margin-bottom: 9vh;
 }
 
 .information-header {
     font-weight: bolder;
-    font-size: 36px;
+    font-size: 2.3rem;
     color: #1f2937;
-    margin-bottom: 30px;
+    margin-bottom: 4vh;
 }
 
 .information-images-text {
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 2rem;
     align-items: center;
 }
 
 .img-placeholder {
-    height: 150px;
-    width: 150px;
+    height: 9rem;
+    width: 9rem;
     border: 2px solid #3882f6;
     border-radius: 10px;
 }
@@ -141,7 +140,7 @@ h1 {
     align-items: center;
     text-align: center;
     width: min-content;
-    gap: 8px;
+    gap: 0.5rem;
 }
 
 .mid-section {
@@ -155,35 +154,35 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    width: 820px;
-    font-size: 36px;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    width: 58vw;
+    font-size: 2.25rem;
     color: #1f2937;
 }
 
 .quote-subtext {
     align-self: flex-end;
     font-weight: bold;
-    font-size: 26px;
+    font-size: 1.7rem;
 }
 
 .sign-up-container {
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding: 50px;
+    margin-top: 12vh;
+    margin-bottom: 12vh;
+    padding: 3.5rem;
     background-color: #3882f6;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
-    gap: 225px;
+    gap: 14rem;
     color: #e5e7eb;
 }
 
 h4 {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .button-two {
@@ -192,12 +191,12 @@ h4 {
 
 .footer-container {
     background-color: #1F2937;
-    height: 100px;
+    height: 6rem;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 40px;
+    padding-top: 2.5rem;
 }
